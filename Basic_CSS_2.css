@@ -1,0 +1,19 @@
+/*body style*/
+body {
+	background-color: #FAEBD7;
+	color: crimson;
+	text-decoration: italic;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+}
+/*paragraph style*/
+p {
+	background-color: blue;
+	color: cornsilk;
+	font-size: medium;
+	text-align: right;
+}
+h1 {
+	text-shadow: 2px 2px;
+}
