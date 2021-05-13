@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        h2 {text-align: center;} 
+        * {
+            box-sizing: border-box;
+            }
+
+            /* Create two equal columns that floats next to each other */
+            .column {
+                height: 200px;
+                width: 200px;
+                float: left;
+       
+                padding: 5px;
+                color: gray;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Two Equal Columns</h2>
+        <div class="row">
+
+            <div class="column" style="background-color:rgb(219, 183, 183);">
+                <h2>Column 1 Heading</h2>
+                <p>Now is the time for. . .</p>
+            </div>
+            <div class="column" style="background-color:rgba(206, 168, 168, 0.411);">
+                <h2>Column 2  Heading</h2>
+                <p>all good men to come to the aid of their Country.</p>
+            </div>
+        </div>
+        <h4>this comes after the two columns</h4>
+    </body>
+</html>
